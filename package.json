@@ -1,0 +1,24 @@
+{
+  "name": "10print",
+  "version": "1.0.0",
+  "description": "Nodejs implementation of the famous one-line Commodore 64 BASIC program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luca1388/10print.git"
+  },
+  "keywords": [
+    "javascript",
+    "10print",
+    "commodore"
+  ],
+  "author": "luca1388",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luca1388/10print/issues"
+  },
+  "homepage": "https://github.com/luca1388/10print#readme"
+}
