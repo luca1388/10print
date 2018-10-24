@@ -1,6 +1,6 @@
 {
   "name": "10print",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Nodejs implementation of the famous one-line Commodore 64 BASIC program",
   "main": "index.js",
   "scripts": {
