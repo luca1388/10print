@@ -17,10 +17,22 @@ npm install 10print
 ```
 
 ### Usage
+For a basic usage run `goto10()` to print the standard pattern: 
 ```
-let print = require("10print");
-print.goto10();
+let p = require("10print");
+p.goto10();
 ```
+
+If you want to create your own custom pattern it's possible to call `printPattern(config)` in this way:
+```
+p.printPattern({
+    symbol1: "/", // The first symbol of your pattern
+    symbol2: "\\", // The second symbol of your pattern
+    weight: 0.5 // Value between 0 and 1 that tunes the probability of each symbol to be displayed
+})
+```
+This is the configuration of the standard pattern. Changing `weight` value would create a new one with different symbol frequency: setting 0 means to have 100% chance to get first symbol, 1 means 100% chance to get second. With 0.5 there is 50% chance for each symbol.
+You can change this value and the symbols as well to create your custom pattern.
 
 ## License
 
