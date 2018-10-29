@@ -4,7 +4,8 @@
   "description": "Nodejs implementation of the famous one-line Commodore 64 BASIC program",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/luca1388/10print/issues"
   },
-  "homepage": "https://github.com/luca1388/10print#readme"
+  "homepage": "https://github.com/luca1388/10print#readme",
+  "devDependencies": {
+    "jest": "23.6.0"
+  }
 }

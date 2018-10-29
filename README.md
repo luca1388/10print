@@ -34,6 +34,17 @@ p.printPattern({
 This is the configuration of the standard pattern. Changing `weight` value would create a new one with different symbol frequency: setting 0 means to have 100% chance to get first symbol, 1 means 100% chance to get second. With 0.5 there is 50% chance for each symbol.
 You can change this value and the symbols as well to create your custom pattern.
 
+### Developing
+Install all the dependencies:
+```
+npm install
+```
+No build is needed. To run the tests:
+```
+npm test
+```
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
