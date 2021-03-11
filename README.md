@@ -1,7 +1,7 @@
 # 10print
 
 Nodejs implementation of the famous one-line Commodore 64 BASIC program: 
-```
+```js
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10. 
 ```
 This project was inspired by _10 PRINT_ book (http://10print.org/) where you can find all the information about the original program.
@@ -24,7 +24,7 @@ p.goto10();
 ```
 
 If you want to create your own custom pattern it's possible to call `printPattern(config)` in this way:
-```
+```js
 p.printPattern({
     symbol1: "/", // The first symbol of your pattern
     symbol2: "\\", // The second symbol of your pattern
