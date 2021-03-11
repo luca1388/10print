@@ -18,7 +18,7 @@ npm install 10print
 
 ### Usage
 For a basic usage run `goto10()` to print the standard pattern: 
-```
+```js
 let p = require("10print");
 p.goto10();
 ```
